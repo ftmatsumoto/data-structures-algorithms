@@ -85,7 +85,7 @@ array = [1,7,4,23,8,9,4,3,5,7,9,67,6345,324]
 tree = Tree.new
 tree_2 = tree.build_tree(array)
 tree.check_tree(tree_2)
-puts tree.breadth_first_search(tree_2,1000)
-puts tree.depth_first_search(tree_2,1000)
-puts tree.dfs_rec(tree_2,1000)
+puts tree.breadth_first_search(tree_2,324)
+puts tree.depth_first_search(tree_2,324)
+puts tree.dfs_rec(tree_2,324)
 
