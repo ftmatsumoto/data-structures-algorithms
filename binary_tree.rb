@@ -40,11 +40,11 @@ class	Tree
 
 	def check_tree(tree, level=0)
 	  if !tree.right.nil? || !tree.left.nil?
-	    puts "Level: #{level}"
-	    puts "Left branch: #{tree.value} => #{tree.left.value}" if !tree.left.nil?
-	    puts "Right branch: #{tree.value} => #{tree.right.value}" if !tree.right.nil?
-	    check_tree(tree.left, level+1) if !tree.left.nil?
-	    check_tree(tree.right, level+1) if !tree.right.nil?
+		puts "Level: #{level}"
+		puts "Left branch: #{tree.value} => #{tree.left.value}" if !tree.left.nil?
+		puts "Right branch: #{tree.value} => #{tree.right.value}" if !tree.right.nil?
+		check_tree(tree.left, level+1) if !tree.left.nil?
+		check_tree(tree.right, level+1) if !tree.right.nil?
 	  end
 	end
 
